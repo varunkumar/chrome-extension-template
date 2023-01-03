@@ -1,8 +1,8 @@
 import './index.css';
-import Panel from './Panel';
+import Panel from './Panel'; // eslint-disable-line
 
 const container =
   window.document.querySelector('#app-container') || window.document.body;
-container.appendChild(Panel());
+container.innerHTML = Panel();
 
 if (import.meta.webpackHot) import.meta.webpackHot.accept();

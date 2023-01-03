@@ -1,8 +1,8 @@
 import './index.css';
-import Newtab from './Newtab';
+import Newtab from './Newtab'; // eslint-disable-line
 
 const container =
   window.document.querySelector('#app-container') || window.document.body;
-container.appendChild(Newtab());
+container.innerHTML = Newtab();
 
 if (import.meta.webpackHot) import.meta.webpackHot.accept();

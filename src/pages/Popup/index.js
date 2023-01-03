@@ -1,8 +1,8 @@
 import './index.css';
-import Popup from './Popup';
+import Popup from './Popup'; // eslint-disable-line
 
 const container =
   window.document.querySelector('#app-container') || window.document.body;
-container.appendChild(Popup());
+container.innerHTML = Popup();
 
 if (import.meta.webpackHot) import.meta.webpackHot.accept();
