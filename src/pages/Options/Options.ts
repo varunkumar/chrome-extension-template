@@ -1,4 +1,3 @@
-import React from 'react';
 import './Options.css';
 
 interface Props {
@@ -6,5 +5,5 @@ interface Props {
 }
 
 export default function Options({ title }: Props) {
-  return <div className="OptionsContainer">{title} Page</div>;
+  return `<div className="OptionsContainer">${title} Page</div>`;
 }
