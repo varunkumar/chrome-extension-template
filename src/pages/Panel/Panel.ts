@@ -5,6 +5,5 @@ export default function Panel(): string {
     <div className="container">
       <h1>Dev Tools Panel</h1>
     </div>
-    `
-  ;
+    `;
 }
