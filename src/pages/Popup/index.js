@@ -1,5 +1,5 @@
 import './index.css';
-import Popup from './Popup'; // eslint-disable-line
+import Popup from './Popup.js'; // eslint-disable-line
 
 const container =
   window.document.querySelector('#app-container') || window.document.body;

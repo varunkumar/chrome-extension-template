@@ -1,5 +1,5 @@
 import './index.css';
-import Newtab from './Newtab'; // eslint-disable-line
+import Newtab from './Newtab.js'; // eslint-disable-line
 
 const container =
   window.document.querySelector('#app-container') || window.document.body;

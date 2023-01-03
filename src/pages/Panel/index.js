@@ -1,5 +1,5 @@
 import './index.css';
-import Panel from './Panel'; // eslint-disable-line
+import Panel from './Panel.ts'; // eslint-disable-line
 
 const container =
   window.document.querySelector('#app-container') || window.document.body;

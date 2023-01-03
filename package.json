@@ -14,7 +14,7 @@
     "prettier-check": "prettier --check '**/*.{js,ts,jsx,tsx,json,css,scss,md}'",
     "prettify": "prettier --write '**/*.{js,ts,jsx,tsx,json,css,scss,md}'",
     "lint": "eslint .",
-    "check-types": "tsc --noEmit"
+    "types-check": "tsc --noEmit"
   },
   "author": "Varunkumar Nagarajan",
   "bugs": {
