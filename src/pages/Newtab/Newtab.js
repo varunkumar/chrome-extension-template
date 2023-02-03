@@ -5,10 +5,10 @@ const Newtab = () =>
   `
   <div className="App">
     <header className="App-header">
-      <p>
+      <h1>
         Edit <code>src/pages/Newtab/Newtab.js</code> and save to reload.
-      </p>
-      <h6>The color of this paragraph is defined using SASS.</h6>
+      </h1>
+      <h3>The color of this paragraph is defined using SASS.</h3>
     </header>
   </div>
   `;
