@@ -3,8 +3,8 @@ import './Newtab.scss';
 
 const Newtab = () =>
   `
-  <div className="App">
-    <header className="App-header">
+  <div class="App">
+    <header class="App-header">
       <h1>
         Edit <code>src/pages/Newtab/Newtab.js</code> and save to reload.
       </h1>

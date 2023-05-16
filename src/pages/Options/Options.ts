@@ -5,5 +5,5 @@ interface Props {
 }
 
 export default function Options({ title }: Props) {
-  return `<div className="OptionsContainer">${title} Page</div>`;
+  return `<div class="OptionsContainer">${title} Page</div>`;
 }

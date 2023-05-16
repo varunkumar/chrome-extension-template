@@ -1,8 +1,8 @@
 import './Popup.css';
 
 const Popup = () => `
-    <div className="App">
-      <header className="App-header">
+    <div class="App">
+      <header class="App-header">
         <p>
           Edit <code>src/pages/Popup/Popup.js</code> and save to reload.
         </p>
