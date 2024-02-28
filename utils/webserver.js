@@ -34,7 +34,6 @@ const compiler = webpack(config);
 
 const server = new WebpackDevServer(
   {
-    https: false,
     hot: 'only',
     liveReload: false,
     client: false,

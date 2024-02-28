@@ -1,11 +1,11 @@
 {
-  "name": "crx",
+  "name": "chrome-extension-template",
   "version": "0.0.1",
   "description": "Template for creating a Chrome extension using plain JavaScript, and TypeScript",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/varunkumar/crx.git"
+    "url": "https://github.com/varunkumar/chrome-extension-template.git"
   },
   "type": "module",
   "scripts": {
@@ -15,44 +15,44 @@
     "prettify": "prettier --write '**/*.{js,ts,jsx,tsx,json,css,scss,md}'",
     "lint": "eslint .",
     "types-check": "tsc --noEmit",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "author": "Varunkumar Nagarajan",
   "bugs": {
-    "url": "https://github.com/varunkumar/crx/issues"
+    "url": "https://github.com/varunkumar/chrome-extension-template/issues"
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.22.9",
+    "@babel/core": "^7.23.9",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
-    "@babel/preset-env": "^7.22.9",
-    "@babel/preset-typescript": "^7.22.5",
-    "@eslint/eslintrc": "^2.1.1",
-    "@types/chrome": "^0.0.243",
-    "@typescript-eslint/eslint-plugin": "^6.2.1",
-    "@typescript-eslint/parser": "^6.2.1",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@eslint/eslintrc": "^3.0.2",
+    "@types/chrome": "^0.0.262",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
     "babel-loader": "^9.1.3",
     "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^11.0.0",
-    "css-loader": "^6.8.1",
-    "eslint": "^8.46.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^6.10.0",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.9.0",
-    "eslint-plugin-import": "^2.28.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
     "file-loader": "^6.2.0",
-    "fs-extra": "^11.1.1",
-    "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.5.3",
+    "fs-extra": "^11.2.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
     "node-sass": "^9.0.0",
-    "prettier": "^3.0.0",
-    "sass-loader": "^13.3.2",
-    "source-map-loader": "^4.0.1",
-    "style-loader": "^3.3.3",
-    "terser-webpack-plugin": "^5.3.9",
-    "typescript": "^5.1.6",
-    "webpack": "^5.88.2",
+    "prettier": "^3.2.5",
+    "sass-loader": "^14.1.1",
+    "source-map-loader": "^5.0.0",
+    "style-loader": "^3.3.4",
+    "terser-webpack-plugin": "^5.3.10",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1",
-    "husky": "^8.0.3"
+    "webpack-dev-server": "^5.0.2",
+    "husky": "^9.0.11"
   }
 }
